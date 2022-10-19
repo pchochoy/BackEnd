@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200/")
+//@CrossOrigin(origins="http://localhost:4200/")
+@CrossOrigin(origins="https://pdchportfolio.web.app/porfolio/")
 public class PersonaController {
     
     @Autowired
