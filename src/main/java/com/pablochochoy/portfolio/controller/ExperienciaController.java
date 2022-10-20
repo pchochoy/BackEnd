@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@CrossOrigin(origins="http://localhost:4200/")
-@CrossOrigin(origins="https://pdchportfolio.web.app/porfolio/")
+@CrossOrigin(origins="https://pdchportfolio.web.app/")
 public class ExperienciaController {
     
     @Autowired
